@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(180, 247, 122);
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+input {
+    height: 25px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 18px;
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px; /* Add padding to make the button more clickable */
+    border: none; /* Remove the default button border */
+    border-radius: 5px;
+    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+}
